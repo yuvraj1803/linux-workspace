@@ -1,0 +1,12 @@
+[submodule "linux"]
+	path = linux
+	url = https://www.github.com/yuvraj1803/linux.git
+[submodule "optee"]
+	path = optee
+	url = https://github.com/OP-TEE/optee_os.git
+[submodule "tfa"]
+	path = tfa
+	url = https://github.com/ARM-software/arm-trusted-firmware.git
+[submodule "uboot"]
+	path = uboot
+	url = https://github.com/u-boot/u-boot.git
