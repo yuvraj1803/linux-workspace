@@ -7,9 +7,6 @@
 [submodule "tfa"]
 	path = tfa
 	url = https://github.com/ARM-software/arm-trusted-firmware.git
-[submodule "uboot"]
-	path = uboot
-	url = https://github.com/u-boot/u-boot.git
 [submodule "rmm"]
 	path = rmm
 	url = https://github.com/TF-RMM/tf-rmm.git
