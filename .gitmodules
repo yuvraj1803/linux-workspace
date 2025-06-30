@@ -16,3 +16,6 @@
 [submodule "buildroot"]
 	path = buildroot
 	url = https://github.com/buildroot/buildroot.git
+[submodule "kvmtool"]
+	path = kvmtool
+	url = https://github.com/kvmtool/kvmtool.git
