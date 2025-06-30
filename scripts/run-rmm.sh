@@ -3,7 +3,7 @@ qemu-system-aarch64 \
 	     -kernel linux/arch/arm64/boot/Image \
 	     -cpu max,x-rme=on \
 	     -smp 2 \
-	     -machine virt,secure=on,gic-version=3,virtualization=on \
+	     -machine virt,secure=on,gic-version=3,virtualization=on,acpi=off \
 	     -bios tfa/build/qemu/debug/qemu_fw.bios \
 	     -drive file=buildroot/output/images/rootfs.ext4,if=none,format=raw,id=hd0 -device virtio-blk-device,drive=hd0 \
 	     -m 8G \

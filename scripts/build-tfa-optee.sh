@@ -1,7 +1,7 @@
 cd tfa
 make 	    CROSS_COMPILE=aarch64-linux-gnu- \
 	     PLAT=qemu \
-	     BL33=../uboot/u-boot.bin \
+	     BL33=../edk2/Build/ArmVirtQemuKernel-AARCH64/RELEASE_GCC5/FV/QEMU_EFI.fd \
 	     DEBUG=1 \
 	     LOG_LEVEL=40 \
 	     ARM_LINUX_KERNEL_AS_BL33=0 \
